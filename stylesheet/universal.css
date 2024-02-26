@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'InterFont';
+  src: url('media/Inter-Regular.ttf');
+}
+
+body {
+  font-family: 'InterFont', sans-serif;
+}
+
+p, body {
+  margin: 0px;
+}
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+:root {
+  --font-size-extra-small: 20px;
+  --font-size-small: 28px;
+  --font-size-medium: 36px;
+  --font-size-large: 48px;
+}
+

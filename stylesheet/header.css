@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.header_logo {
+  width: 200px;
+}
+
+.header_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 100px;
+  gap: 42px;
+}
+
+.header_anchor {
+  font-size: var(--font-size-small);
+  margin-bottom: 20px;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header_misc {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 50px;
+  gap: 30px;
+}
+
+.header_fontsize {
+  display: flex;
+  align-items: baseline;
+}
+
+.header_len {
+  height: 24px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.header_big_A {
+  font-size: 40px;
+  margin-bottom: 14px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.header_small_A {
+  font-size: 28px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+.header_donate {
+  width: 125px;
+  height: 70px;
+  background: #0D6792;
+  align-self: flex-end;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.header_donate_text {
+  font-size: var(--font-size-small);
+  color: #ffffff;
+  font-weight: bold;
+  display: inline;
+}
