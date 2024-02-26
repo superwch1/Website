@@ -21,8 +21,6 @@
 .header_anchor {
   font-size: var(--font-size-small);
   margin-bottom: 20px;
-  color: #000000;
-  text-decoration: none;
   cursor: pointer;
 }
 

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'InterFont';
-  src: url('media/Inter-Regular.ttf');
+  src: url('../media/Inter-Regular.ttf');
 }
 
 body {
@@ -9,6 +9,11 @@ body {
 
 p, body {
   margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
 }
 
 [contenteditable] {
