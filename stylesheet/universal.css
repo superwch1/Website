@@ -7,8 +7,9 @@ body {
   font-family: 'InterFont', sans-serif;
 }
 
-p, body {
+p, h1, h2, body {
   margin: 0px;
+  font-weight: normal;
 }
 
 a {

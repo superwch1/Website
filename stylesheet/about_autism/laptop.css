@@ -1,0 +1,134 @@
+@media only screen and (min-width: 1440px) {
+  .summary {
+    display: flex;
+    background-color: #EAF5FF;
+    justify-content: center;
+  }
+
+  .summary_container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    gap: 60px;
+  }
+
+  .summary_navigation {
+    display: flex;
+    align-self: flex-start;
+    border-radius: 0px 0px 16px 16px;
+    padding: 8px 20px 8px 20px;
+    background-color: #ffffff;
+  }
+
+  .summary_navigation > * {
+    display: inline;
+    font-size: var(--font-size-extra-small);
+  }
+  
+  .summary_title {
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    align-self: flex-start;
+  }
+
+  .summary_video {
+    width: 1200px;
+  }
+
+  .summary_box {
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0px 2px 2px 0px #000000;
+    background-color: #ffffff;
+  }
+
+  .summary_content {
+    font-size: var(--font-size-small);
+  }
+
+
+
+  .symptom {
+    display: flex;
+    background-color: #EAF5FF;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .symptom_container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    gap: 50px;
+  }
+
+  .symptom_title {
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    align-self: flex-start;
+  }
+
+  .symptom_content {
+    font-size: var(--font-size-small);
+  }
+
+  .symptom_box {
+    position: relative;
+    padding: 40px 60px 40px 60px;
+    background-color: #ffffff;
+  }
+
+  .symtpom_top_left_border {
+    width: 70px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+  .symtpom_bottom_right_border {
+    width: 70px;
+    position: absolute;
+    top: calc(100% - 70px);
+    left: calc(100% - 70px);
+  }
+
+  .symptom_top_left_border_small {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .symtpom_bottom_right_border_small {
+    width: 50px;
+    position: absolute;
+    top: calc(100% - 50px - 10px);
+    left: calc(100% - 50px - 10px);
+  }
+
+  .cause {
+    display: flex;
+    background-color: #EAF5FF;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .cause_container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    gap: 50px;
+  }
+
+  .cause_title {
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    align-self: flex-start;
+  }
+
+  .cause_content {
+    font-size: var(--font-size-small);
+  }
+
+}
