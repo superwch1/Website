@@ -1,29 +1,3 @@
-document.getElementById("services_family").onmouseenter = function() {
-  document.getElementById("services_family_logo").src = "media/index/color_family_logo.png";
-};
-
-document.getElementById("services_family").onmouseleave = function() {
-  document.getElementById("services_family_logo").src = "media/index/family_logo.png";
-};
-
-document.getElementById("services_children").onmouseenter = function() {
-  document.getElementById("services_children_logo").src = "media/index/color_children_logo.png";
-};
-
-document.getElementById("services_children").onmouseleave = function() {
-  document.getElementById("services_children_logo").src = "media/index/children_logo.png";
-};
-
-document.getElementById("services_school").onmouseenter = function() {
-  document.getElementById("services_school_logo").src = "media/index/color_school_logo.png";
-};
-
-document.getElementById("services_school").onmouseleave = function() {
-  document.getElementById("services_school_logo").src = "media/index/school_logo.png";
-};
-
-
-
 var selectElement = function(element) {
   element.style.backgroundColor = "#0D6792";
   element.style.color = "#ffffff";

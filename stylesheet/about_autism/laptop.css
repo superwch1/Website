@@ -5,11 +5,17 @@
     justify-content: center;
   }
 
+  .summary_background {
+    position: absolute;
+    width: 100%;
+  }
+
   .summary_container {
     display: flex;
     flex-direction: column;
     width: 1200px;
     gap: 60px;
+    z-index: 1; 
   }
 
   .summary_navigation {
@@ -25,7 +31,7 @@
     font-size: var(--font-size-extra-small);
   }
   
-  .summary_title {
+  .summary_heading {
     font-size: var(--font-size-large);
     font-weight: bold;
     align-self: flex-start;
@@ -62,7 +68,7 @@
     gap: 50px;
   }
 
-  .symptom_title {
+  .symptom_heading {
     font-size: var(--font-size-large);
     font-weight: bold;
     align-self: flex-start;
@@ -121,7 +127,7 @@
     gap: 50px;
   }
 
-  .cause_title {
+  .cause_heading {
     font-size: var(--font-size-large);
     font-weight: bold;
     align-self: flex-start;
