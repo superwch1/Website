@@ -38,13 +38,6 @@
     font-size: var(--font-size-extra-small);
   }
   
-  .summary_box {
-    border-radius: 16px;
-    padding: 40px;
-    box-shadow: 0px 2px 2px 0px #000000;
-    background-color: #ffffff;
-  }
-
   .summary_content {
     font-size: var(--font-size-small);
   }
