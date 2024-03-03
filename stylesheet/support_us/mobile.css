@@ -1,122 +1,119 @@
 @media only screen and (max-width: 767px) {
-  /*--------------- Banner Section ---------------  */
-  .banner {
-    position: relative;
+  /*--------------- Summary Section ---------------  */
+  .summary {
+    display: flex;
     background-color: #EAF5FF;
+    justify-content: center;
   }
-  
-  .banner_photo {
+
+  .summary_background {
+    position: absolute;
     width: 100%;
   }
 
-  .banner_heading {
-    position: absolute;
-    font-size: var(--font-size-mobile-small);
-    font-weight: bold;
-    left: 62%;
-    top: 25%;
-  }
-
-  .banner_content {
-    position: absolute;
-    font-size: var(--font-size-mobile-extra-small);
-    left: 62%;
-    top: 35%;
-  }
-
-  .banner_service {
-    display: none;
-  }
-
-  .banner_involve {
-    display: none;
-  }
-
-  .banner_service_text {
-    font-size: var(--font-size-mobile-small);
-  }
-
-  .banner_involve_text {
-    font-size: var(--font-size-mobile-small);
-    color: #ffffff;
-  }
-
-
-  /*--------------- Service Section ---------------  */
-  .services {
+  .summary_container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-bottom: 40px;
-    background-color: #EAF5FF;
-  }
-  
-  .services_categories {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 320px;
     gap: 10px;
-  }
-  
-  .servies_children, .services_family, .services_school {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 220px;
-    gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 30px;
-    cursor: pointer;
+    z-index: 1; 
   }
 
-  .servies_children:hover, .services_family:hover, .services_school:hover {
-    background-color: #ffffff;
-  }
-  
-  .services_logo {
-    width: 140px;
-  }
-  
-  .services_heading {
+  .summary_heading {
     font-size: var(--font-size-mobile-large);
     font-weight: bold;
+    align-self: center;
   }
-  
-  .services_title {
-    font-size: var(--font-size-mobile-medium);
-  }
-  
 
-  /*--------------- Promotion Section ---------------  */
-  .promotion {
+  .summary_navigation {
+    display: flex;
+    align-self: flex-start;
+    border-radius: 0px 0px 8px 8px;
+    padding: 6px 10px 6px 10px;
+    background-color: #ffffff;
+  }
+
+  .summary_navigation > * {
+    display: inline;
+    font-size: var(--font-size-mobile-extra-small);
+  }
+
+  .summary_content {
+    font-size: var(--font-size-mobile-small);
+    font-weight: bold;
+  }
+
+  .summary_box {
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 4px dotted #423939;
+    padding: 15px;
+  }
+
+
+  /*--------------- Method Section ---------------  */
+  .method {
+    display: flex;
+    background-color: #EAF5FF;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .method_container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .promotion_photo {
     width: 320px;
+    gap: 70px;
   }
-  
-  .promotion_description {
+
+  .method_row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .method_box {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: start;
     width: 320px;
     gap: 10px;
   }
-  
-  .promotion_title {
+
+  .method_box_photo {
+    width: 320px;
+  }
+
+  .method_banner {
+    display: flex;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .method_volunteer, .method_contribute {
+    background-color: #79AEE0;
+    color: #ffffff;
+  }
+
+  .method_fundraising {
+    background-color: #A8DEB0;
+  }
+
+  .method_content {
     font-size: var(--font-size-mobile-small);
   }
-  
-  .promotion_content {
+
+  .method_banner_content {
     font-size: var(--font-size-mobile-small);
     font-weight: bold;
+  }
+
+  .method_navigation {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: var(--font-size-mobile-extra-small);
   }
 
 
@@ -125,7 +122,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 40px;
     background-color: #EAF5FF;
   }

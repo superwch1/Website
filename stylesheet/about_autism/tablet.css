@@ -1,0 +1,143 @@
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  /*--------------- Summary Section ---------------  */
+  .summary {
+    display: flex;
+    background-color: #EAF5FF;
+    justify-content: center;
+  }
+
+  .summary_background {
+    position: absolute;
+    width: 100%;
+  }
+
+  .summary_container {
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+    gap: 40px;
+    z-index: 1; 
+  }
+
+  .summary_navigation {
+    display: flex;
+    align-self: flex-start;
+    border-radius: 0px 0px 10px 10px;
+    padding: 6px 16px 6px 16px;
+    background-color: #ffffff;
+  }
+
+  .summary_navigation > * {
+    display: inline;
+    font-size: var(--font-size-tablet-extra-small);
+  }
+  
+  .summary_heading {
+    font-size: var(--font-size-tablet-large);
+    font-weight: bold;
+    align-self: flex-start;
+  }
+
+  .summary_video {
+    width: 760px;
+  }
+
+  .summary_box {
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0px 2px 2px 0px #000000;
+    background-color: #ffffff;
+  }
+
+  .summary_content {
+    font-size: var(--font-size-tablet-small);
+  }
+
+
+  /*--------------- Symtpom Section ---------------  */
+  .symptom {
+    display: flex;
+    background-color: #EAF5FF;
+    justify-content: center;
+    padding-top: 70px;
+  }
+
+  .symptom_container {
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+    gap: 30px;
+  }
+
+  .symptom_heading {
+    font-size: var(--font-size-tablet-large);
+    font-weight: bold;
+    align-self: flex-start;
+  }
+
+  .symptom_content {
+    font-size: var(--font-size-tablet-small);
+  }
+
+  .symptom_box {
+    position: relative;
+    padding: 30px 50px 30px 50px;
+    background-color: #ffffff;
+  }
+
+  .symtpom_top_left_border {
+    width: 70px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+  .symtpom_bottom_right_border {
+    width: 70px;
+    position: absolute;
+    top: calc(100% - 70px);
+    left: calc(100% - 70px);
+  }
+
+  .symptom_top_left_border_small {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .symtpom_bottom_right_border_small {
+    width: 50px;
+    position: absolute;
+    top: calc(100% - 50px - 10px);
+    left: calc(100% - 50px - 10px);
+  }
+
+
+  /*--------------- Causes Section ---------------  */
+  .cause {
+    display: flex;
+    background-color: #EAF5FF;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .cause_container {
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+    gap: 30px;
+  }
+
+  .cause_heading {
+    font-size: var(--font-size-tablet-large);
+    font-weight: bold;
+    align-self: flex-start;
+  }
+
+  .cause_content {
+    font-size: var(--font-size-tablet-small);
+  }
+
+}
