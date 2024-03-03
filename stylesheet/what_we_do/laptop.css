@@ -1,4 +1,5 @@
 @media only screen and (min-width: 1440px) {
+  /*--------------- Summary Section ---------------  */
   .summary {
     display: flex;
     background-color: #EAF5FF;
@@ -75,7 +76,7 @@
   }
 
 
-
+  /*--------------- Service Section ---------------  */
   .service {
     display: flex;
     background-color: #EAF5FF;
@@ -131,6 +132,8 @@
     background-color: #F5D0D5;
   }
 
+
+  /*--------------- Sharing Section ---------------  */
   .sharing {
     display: flex;
     background-color: #EAF5FF;
