@@ -1,0 +1,226 @@
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  /*--------------- Banner Section ---------------  */
+  .banner {
+    position: relative;
+    background-color: #EAF5FF;
+  }
+  
+  .banner_photo {
+    width: 100%;
+  }
+
+  .banner_heading {
+    position: absolute;
+    font-size: var(--font-size-tablet-medium);
+    font-weight: bold;
+    left: 62%;
+    top: 29%;
+  }
+
+  .banner_content {
+    position: absolute;
+    font-size: var(--font-size-tablet-small);
+    left: 62%;
+    top: 37%;
+  }
+
+  .banner_service {
+    position: absolute;
+    padding: 10px;
+    left: 67%;
+    top: 55%;
+    border-radius: 48px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  .banner_involve {
+    position: absolute;
+    padding: 12px;
+    left: 72%;
+    top: 66%;
+    border-radius: 48px;
+    background-color: #0D6792;
+    cursor: pointer;
+  }
+
+  .banner_service_text {
+    font-size: var(--font-size-tablet-small);
+  }
+
+  .banner_involve_text {
+    font-size: var(--font-size-tablet-small);
+    color: #ffffff;
+  }
+
+
+  /*--------------- Service Section ---------------  */
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+    background-color: #EAF5FF;
+  }
+  
+  .services_categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .servies_children, .services_family, .services_school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .servies_children:hover, .services_family:hover, .services_school:hover {
+    background-color: #ffffff;
+  }
+  
+  .services_logo {
+    width: 180px;
+  }
+  
+  .services_heading {
+    font-size: var(--font-size-tablet-large);
+    font-weight: bold;
+  }
+  
+  .services_title {
+    font-size: var(--font-size-tablet-small);
+  }
+  
+
+  /*--------------- Promotion Section ---------------  */
+  .promotion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .promotion_photo {
+    width: 400px;
+    right: 15px;
+  }
+  
+  .promotion_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    gap: 25px;
+  }
+  
+  .promotion_title {
+    font-size: var(--font-size-tablet-small);
+  }
+  
+  .promotion_content {
+    font-size: var(--font-size-tablet-small);
+    font-weight: bold;
+  }
+
+
+  /*--------------- Donation Section ---------------  */
+  .donation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #EAF5FF;
+  }
+
+  .donation_photo {
+    width: 760px;
+    height: 680px;
+  }
+
+  .donation_container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    width: 660px;
+    gap: 10px;
+  }
+
+  .donation_heading {
+    font-size: var(--font-size-tablet-large);
+    font-weight: bold;
+    align-self: center;
+  }
+
+  .donation_content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: var(--font-size-tablet-small);
+  }
+
+  .donation_question {
+    padding-top: 10px;
+    font-size: var(--font-size-tablet-small);;
+    font-weight: bold;
+  }
+
+  .donation_options {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .donation_choice {
+    border-radius: 8px;
+    border: 2px solid #000000; 
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+  }
+
+  .donation_choice_selected {
+    background-color: #0D6792;
+    color: #ffffff;
+  }
+
+  .donation_choice_text {
+    font-size: var(--font-size-tablet-small);
+  }
+
+  .donation_choice_editable {
+    width: 160px;
+    text-wrap: nowrap;
+    overflow: hidden;
+  }
+
+  .donation_submit {
+    background-color: #1DA2E3;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    padding: 8px;
+    width: 260px;
+    margin-top: 20px;
+  }
+
+  .donation_submit_text {
+    color: #ffffff;
+    font-size: var(--font-size-tablet-small);
+  }
+
+  .donation_method {
+    padding-top: 20px;
+    width: 560px;
+  }
+}

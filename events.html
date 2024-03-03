@@ -17,14 +17,12 @@
 </head>
 
 <body>
-  <!-- Header section -->
+  <!-- Header section for laptop and mobile -->
   <header class="header">
     <!-- navigate to the Home Page -->
     <a href="index.html"><img class="header_logo" src="media/header/logo.png"/></a>
 
-    <!-- Navigation menu -->
     <nav class="header_nav">
-
       <!-- navigate to the About Autism Page -->
       <a class="header_anchor" href="about_autism.html">About Autism</a>
 
@@ -39,15 +37,14 @@
 
       <!-- other functions on header-->
       <div class="header_misc">
-
         <!-- choose the font size -->
         <div class="header_fontsize">  
 
           <!-- bigger font size -->
-          <p id="header_big_A" class="header_big_A">A</p>
+          <p class="header_big_A">A</p>
 
           <!-- smaller font size -->
-          <p id="header_small_A" class="header_small_A">A</p>
+          <p class="header_small_A">A</p>
         </div>
 
         <!-- serach for the content -->
@@ -60,6 +57,42 @@
           </div>
         </a>
       </div>
+    </nav>
+  </header>
+
+  
+  <!-- Header section for mobile -->
+  <header class="header_mobile">
+
+    <img id="header_menu_button" class="header_menu_button" src="media/header/menu.png" />
+
+    <!-- navigate to the Home Page -->
+    <a href="index.html"><img class="header_logo" src="media/header/logo.png"/></a>
+
+    <!-- other functions on header-->
+    <div class="header_misc">
+      <!-- choose the font size -->
+      <div class="header_fontsize">  
+        <!-- bigger font size -->
+        <p class="header_big_A">A</p>
+
+        <!-- smaller font size -->
+        <p class="header_small_A">A</p>
+      </div>
+    </div>
+
+    <nav id="header_nav_mobile" class="header_nav_mobile">
+      <!-- navigate to the About Autism Page -->
+      <a class="header_anchor" href="about_autism.html">About Autism</a>
+
+      <!-- navigate to the Events Page -->
+      <a class="header_anchor" href="events.html">Events</a>
+
+      <!-- navigate to the What We Do Page -->
+      <a class="header_anchor" href="what_we_do.html">What We Do</a>
+
+      <!-- navigate to the Support Us Page -->
+      <a class="header_anchor" href="support_us.html">Support Us</a>
     </nav>
   </header>
 
@@ -184,4 +217,5 @@
 
   <!-- Javascript files for the page -->
   <script src="javascript/fontsize.js"></script>
+  <script src="javascript/header.js"></script>
 </body>

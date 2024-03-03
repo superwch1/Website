@@ -14,18 +14,18 @@
   <link rel="stylesheet" type="text/css" href="stylesheet/header.css">
   <link rel="stylesheet" type="text/css" href="stylesheet/footer.css">
   <link rel="stylesheet" type="text/css" href="stylesheet/index/laptop.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet/index/tablet.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet/index/mobile.css">
 </head>
 
 <body>
 
-  <!-- Header section -->
+  <!-- Header section for laptop and mobile -->
   <header class="header">
     <!-- navigate to the Home Page -->
     <a href="index.html"><img class="header_logo" src="media/header/logo.png"/></a>
 
-    <!-- Navigation menu -->
     <nav class="header_nav">
-
       <!-- navigate to the About Autism Page -->
       <a class="header_anchor" href="about_autism.html">About Autism</a>
 
@@ -40,15 +40,14 @@
 
       <!-- other functions on header-->
       <div class="header_misc">
-
         <!-- choose the font size -->
         <div class="header_fontsize">  
 
           <!-- bigger font size -->
-          <p id="header_big_A" class="header_big_A">A</p>
+          <p class="header_big_A">A</p>
 
           <!-- smaller font size -->
-          <p id="header_small_A" class="header_small_A">A</p>
+          <p class="header_small_A">A</p>
         </div>
 
         <!-- serach for the content -->
@@ -64,12 +63,50 @@
     </nav>
   </header>
 
+  
+  <!-- Header section for mobile -->
+  <header class="header_mobile">
+
+    <img id="header_menu_button" class="header_menu_button" src="media/header/menu.png" />
+
+    <!-- navigate to the Home Page -->
+    <a href="index.html"><img class="header_logo" src="media/header/logo.png"/></a>
+
+    <!-- other functions on header-->
+    <div class="header_misc">
+      <!-- choose the font size -->
+      <div class="header_fontsize">  
+        <!-- bigger font size -->
+        <p class="header_big_A">A</p>
+
+        <!-- smaller font size -->
+        <p class="header_small_A">A</p>
+      </div>
+    </div>
+
+    <nav id="header_nav_mobile" class="header_nav_mobile">
+      <!-- navigate to the About Autism Page -->
+      <a class="header_anchor" href="about_autism.html">About Autism</a>
+
+      <!-- navigate to the Events Page -->
+      <a class="header_anchor" href="events.html">Events</a>
+
+      <!-- navigate to the What We Do Page -->
+      <a class="header_anchor" href="what_we_do.html">What We Do</a>
+
+      <!-- navigate to the Support Us Page -->
+      <a class="header_anchor" href="support_us.html">Support Us</a>
+    </nav>
+  </header>
+
+
+
   <!-- Banner section -->
   <!-- show photo and text to capture user attention -->
   <div class="banner">
     <img class="banner_photo" src="media/index/banner_photo.png" />
     <h1 class="banner_heading">Together</h1>
-    <p class="banner_content">We Create a Better World for People with Autism</p>
+    <p class="banner_content">Create a Better World for People with Autism</p>
 
     <!-- navigate to the What We Do Page -->
     <a href="what_we_do.html">
@@ -137,7 +174,7 @@
       <p class="donation_content">With your generous donation, we are able to provide assistance to help those affected by Autism Spectrum Disorders (ASD).</p>
       
       <!-- choose the frequency of donation period -->
-      <p class="donation_question">Is this a monthly or one-off donation?</p>
+      <p class="donation_question">Is a monthly or one-off donation?</p>
       <div class="donation_options">
         <div id="donation_choice_monthly" class="donation_choice donation_choice_selected">
           <p class="donation_choice_text">Monthly</p>
@@ -232,4 +269,5 @@
   <!-- Javascript files for the page -->
   <script src="javascript/fontsize.js"></script>
   <script src="javascript/donation.js"></script>
+  <script src="javascript/header.js"></script>
 </body>

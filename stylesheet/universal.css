@@ -28,5 +28,14 @@ a {
   --font-size-laptop-small: 28px;
   --font-size-laptop-medium: 36px;
   --font-size-laptop-large: 48px;
-}
 
+  --font-size-tablet-extra-small: 16px;
+  --font-size-tablet-small: 20px;
+  --font-size-tablet-medium: 26px;
+  --font-size-tablet-large: 36px;
+
+  --font-size-mobile-extra-small: 12px;
+  --font-size-mobile-small: 14px;
+  --font-size-mobile-medium: 18px;
+  --font-size-mobile-large: 26px;
+}

@@ -1,0 +1,213 @@
+@media only screen and (max-width: 767px) {
+  /*--------------- Banner Section ---------------  */
+  .banner {
+    position: relative;
+    background-color: #EAF5FF;
+  }
+  
+  .banner_photo {
+    width: 100%;
+  }
+
+  .banner_heading {
+    position: absolute;
+    font-size: var(--font-size-mobile-small);
+    font-weight: bold;
+    left: 62%;
+    top: 29%;
+  }
+
+  .banner_content {
+    position: absolute;
+    font-size: var(--font-size-mobile-extra-small);
+    left: 62%;
+    top: 40%;
+  }
+
+  .banner_service {
+    display: none;
+  }
+
+  .banner_involve {
+    display: none;
+  }
+
+  .banner_service_text {
+    font-size: var(--font-size-mobile-small);
+  }
+
+  .banner_involve_text {
+    font-size: var(--font-size-mobile-small);
+    color: #ffffff;
+  }
+
+
+  /*--------------- Service Section ---------------  */
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    background-color: #EAF5FF;
+  }
+  
+  .services_categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .servies_children, .services_family, .services_school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .servies_children:hover, .services_family:hover, .services_school:hover {
+    background-color: #ffffff;
+  }
+  
+  .services_logo {
+    width: 140px;
+  }
+  
+  .services_heading {
+    font-size: var(--font-size-mobile-large);
+    font-weight: bold;
+  }
+  
+  .services_title {
+    font-size: var(--font-size-mobile-medium);
+  }
+  
+
+  /*--------------- Promotion Section ---------------  */
+  .promotion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .promotion_photo {
+    width: 320px;
+  }
+  
+  .promotion_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    gap: 10px;
+  }
+  
+  .promotion_title {
+    font-size: var(--font-size-mobile-small);
+  }
+  
+  .promotion_content {
+    font-size: var(--font-size-mobile-small);
+    font-weight: bold;
+  }
+
+
+  /*--------------- Donation Section ---------------  */
+  .donation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #EAF5FF;
+  }
+
+  .donation_photo {
+    width: 320px;
+    height: 530px;
+  }
+
+  .donation_container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    width: 280px;
+    gap: 10px;
+  }
+
+  .donation_heading {
+    font-size: var(--font-size-mobile-large);
+    font-weight: bold;
+    align-self: center;
+  }
+
+  .donation_content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: var(--font-size-mobile-small);
+  }
+
+  .donation_question {
+    padding-top: 5px;
+    font-size: var(--font-size-mobile-small);;
+    font-weight: bold;
+  }
+
+  .donation_options {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .donation_choice {
+    border-radius: 8px;
+    border: 2px solid #000000; 
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+  }
+
+  .donation_choice_selected {
+    background-color: #0D6792;
+    color: #ffffff;
+  }
+
+  .donation_choice_text {
+    font-size: var(--font-size-mobile-small);
+  }
+
+  .donation_choice_editable {
+    width: 80px;
+    text-wrap: nowrap;
+    overflow: hidden;
+  }
+
+  .donation_submit {
+    background-color: #1DA2E3;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    padding: 8px;
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  .donation_submit_text {
+    color: #ffffff;
+    font-size: var(--font-size-mobile-small);
+  }
+
+  .donation_method {
+    padding-top: 10px;
+    width: 280px;
+  }
+}
