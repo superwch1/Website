@@ -9,6 +9,7 @@ var unselectElement = function(element) {
 }
 
 
+
 document.getElementById("donation_choice_monthly").onclick = function() {
   selectElement(document.getElementById("donation_choice_monthly"));
   unselectElement(document.getElementById("donation_choice_oneoff"));
@@ -20,10 +21,12 @@ document.getElementById("donation_choice_oneoff").onclick = function() {
 }
 
 
+
 document.getElementById("donation_choice_onehundred").onclick = function() {
   selectElement(document.getElementById("donation_choice_onehundred"));
   unselectElement(document.getElementById("donation_choice_fivehundred"));
   unselectElement(document.getElementById("donation_choice_onethousand"));
+  document.getElementById("donation_choice_customamount").innerText = "";
 }
 
 document.getElementById("donation_choice_fivehundred").onclick = function() {
@@ -44,6 +47,10 @@ document.getElementById("donation_choice_customamount").oninput = function() {
   unselectElement(document.getElementById("donation_choice_onehundred"));
   unselectElement(document.getElementById("donation_choice_fivehundred"));
   unselectElement(document.getElementById("donation_choice_onethousand"));
+}
+
+document.getElementById("donation_submit_button").onclick = function() {
+  alert("Thank You for Your Donation");
 }
 
 

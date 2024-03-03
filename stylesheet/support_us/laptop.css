@@ -1,135 +1,120 @@
 @media only screen and (min-width: 1440px) {
-  .banner {
-    position: relative;
+  .summary {
+    display: flex;
     background-color: #EAF5FF;
+    justify-content: center;
   }
-  
-  .banner_photo {
+
+  .summary_background {
+    position: absolute;
     width: 100%;
   }
 
-  .banner_heading {
-    position: absolute;
+  .summary_container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    gap: 40px;
+    z-index: 1; 
+  }
+
+  .summary_heading {
     font-size: var(--font-size-laptop-large);
     font-weight: bold;
-    left: 62%;
-    top: 29%;
+    align-self: center;
+    padding-top: 70px;
   }
 
-  .banner_content {
-    position: absolute;
-    font-size: var(--font-size-laptop-medium);
-    left: 62%;
-    top: 37%;
-  }
-
-  .banner_service {
-    position: absolute;
-    padding: 20px;
-    left: 67%;
-    top: 55%;
-    border-radius: 48px;
+  .summary_navigation {
+    display: flex;
+    align-self: flex-start;
+    border-radius: 0px 0px 16px 16px;
+    padding: 8px 20px 8px 20px;
     background-color: #ffffff;
-    cursor: pointer;
   }
 
-  .banner_involve {
-    position: absolute;
-    padding: 20px;
-    left: 72%;
-    top: 66%;
-    border-radius: 48px;
-    background-color: #0D6792;
-    cursor: pointer;
+  .summary_navigation > * {
+    display: inline;
+    font-size: var(--font-size-laptop-extra-small);
+  }
+  
+  .summary_content {
+    font-size: var(--font-size-laptop-small);
+    font-weight: bold;
   }
 
-  .banner_service_text {
-    font-size: var(--font-size-laptop-medium);
+  .summary_box {
+    margin-top: 250px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 4px dotted #423939;
+    padding: 40px;
   }
 
-  .banner_involve_text {
-    font-size: var(--font-size-laptop-medium);
+
+  .method {
+    display: flex;
+    background-color: #EAF5FF;
+    justify-content: center;
+    padding-top: 120px;
+  }
+
+  .method_container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    gap: 150px;
+  }
+
+  .method_row {
+    display: flex;
+    gap: 100px;
+  }
+
+  .method_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 515px;
+    gap: 30px;
+  }
+
+  .method_box_photo {
+    width: 585px;
+  }
+
+  .method_banner {
+    display: flex;
+    border-radius: 10px;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .method_volunteer, .method_contribute {
+    background-color: #79AEE0;
     color: #ffffff;
   }
 
-
-  .services {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 110px;
-    background-color: #EAF5FF;
-    gap: 60px;
-  }
-  
-  .services_categories {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .servies_children, .services_family, .services_school {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 380px;
-    gap: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-radius: 30px;
-    cursor: pointer;
+  .method_fundraising {
+    background-color: #A8DEB0;
   }
 
-  .servies_children:hover, .services_family:hover, .services_school:hover {
-    background-color: #ffffff;
-  }
-  
-  .services_logo {
-    width: 180px;
-  }
-  
-  .services_heading {
-    font-size: var(--font-size-laptop-large);
-    font-weight: bold;
-  }
-  
-  .services_title {
-    font-size: var(--font-size-laptop-medium);
-  }
-  
-  .promotion {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 60px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-  
-  .promotion_photo {
-    width: 630px;
-    right: 15px;
-  }
-  
-  .promotion_description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 510px;
-    gap: 25px;
-  }
-  
-  .promotion_title {
+  .method_content {
     font-size: var(--font-size-laptop-small);
   }
-  
-  .promotion_content {
+
+  .method_banner_content {
     font-size: var(--font-size-laptop-small);
     font-weight: bold;
   }
 
+  .method_navigation {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: var(--font-size-laptop-extra-small);
+  }
+
+  
   .donation {
     display: flex;
     flex-direction: column;

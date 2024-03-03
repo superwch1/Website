@@ -22,9 +22,9 @@ a {
 }
 
 :root {
-  --font-size-extra-small: 20px;
-  --font-size-small: 28px;
-  --font-size-medium: 36px;
-  --font-size-large: 48px;
+  --font-size-laptop-extra-small: 20px;
+  --font-size-laptop-small: 28px;
+  --font-size-laptop-medium: 36px;
+  --font-size-laptop-large: 48px;
 }
 

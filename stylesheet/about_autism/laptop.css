@@ -28,11 +28,11 @@
 
   .summary_navigation > * {
     display: inline;
-    font-size: var(--font-size-extra-small);
+    font-size: var(--font-size-laptop-extra-small);
   }
   
   .summary_heading {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-laptop-large);
     font-weight: bold;
     align-self: flex-start;
   }
@@ -49,7 +49,7 @@
   }
 
   .summary_content {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-laptop-small);
   }
 
 
@@ -69,13 +69,13 @@
   }
 
   .symptom_heading {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-laptop-large);
     font-weight: bold;
     align-self: flex-start;
   }
 
   .symptom_content {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-laptop-small);
   }
 
   .symptom_box {
@@ -128,13 +128,13 @@
   }
 
   .cause_heading {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-laptop-large);
     font-weight: bold;
     align-self: flex-start;
   }
 
   .cause_content {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-laptop-small);
   }
 
 }

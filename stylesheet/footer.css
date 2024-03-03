@@ -13,7 +13,7 @@
 }
 
 .footer_heading {
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-laptop-large);
   font-weight: bold;
   color: #FFFFFF;
 
@@ -38,13 +38,13 @@
   padding-top: 40px;
   padding-bottom: 20px;
   color: #FFFFFF;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-laptop-small);
   font-weight: bold;
 }
 
 .footer_content {
   color: #FFFFFF;
-  font-size: var(--font-size-extra-small);
+  font-size: var(--font-size-laptop-extra-small);
 }
 
 .footer_content_address {
@@ -62,7 +62,7 @@
 }
 
 .footer_socialmedia_title {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-laptop-small);
   font-weight: bold;
   color: #FFFFFF;
 }

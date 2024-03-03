@@ -19,7 +19,7 @@
   }
 
   .summary_heading {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-laptop-large);
     font-weight: bold;
     align-self: center;
   }
@@ -34,11 +34,11 @@
 
   .summary_navigation > * {
     display: inline;
-    font-size: var(--font-size-extra-small);
+    font-size: var(--font-size-laptop-extra-small);
   }
   
   .summary_content {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-laptop-small);
   }
 
   .summary_highlight {
@@ -93,6 +93,6 @@
   }
 
   .event_content {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-laptop-small);
   }
 }
