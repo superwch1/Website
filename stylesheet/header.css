@@ -182,13 +182,14 @@
   .header_nav_mobile {
     display: none;
     position: absolute;
-    top: 63px;
+    top: 65px;
     left: 0px;
     flex-direction: column;
     gap: 10px;
     background-color: #ffffff;
     padding: 10px;
     z-index: 4;
+    border-bottom-right-radius: 5px;
   }
   
   .header_anchor {
