@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     width: 760px;
-    gap: 15px;
+    gap: 30px;
     z-index: 1; 
   }
 
@@ -44,7 +44,7 @@
 
   .summary_highlight {
     font-weight: bold;
-    padding-top: 50px;
+    padding-top: 70px;
   }
 
 

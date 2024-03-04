@@ -89,7 +89,7 @@
   .method_banner {
     display: flex;
     border-radius: 10px;
-    padding: 10px 20px 10px 20px;
+    padding: 8px 16px 8px 16px;
   }
 
   .method_volunteer, .method_contribute {
